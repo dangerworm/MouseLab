@@ -352,6 +352,8 @@ namespace MouseLab
             }
 
             imgGraph.Invalidate();
+            imgGraph.Refresh();
+            Application.DoEvents();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
